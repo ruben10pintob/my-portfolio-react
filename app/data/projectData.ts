@@ -14,7 +14,7 @@ export const projectData = [
         category: 'React',
         name: 'My Porfolio',
         description: 'My portfolio created with React and TypeScript, using technologies like Tailwind CSS, Next.js, 14 Shadcd UI.',
-        github: '/'
+        github: 'https://github.com/ruben10pintob/my-portfolio-react'
     },
     
 ]
