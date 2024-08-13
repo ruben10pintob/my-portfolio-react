@@ -1,16 +1,15 @@
 'use client';
 import CountUp from 'react-countup';
-import { IconType } from 'react-icons/lib';
 
 interface Props {
     containerStyles?: String,
-    icon?: IconType,
-    endCountNum?: number,
+    icon: any,
+    endCountNum: number,
     endCountText?: String,
     badgeText?: String
 }
 
-export const Badge = ({ containerStyles, icon, endCountNum, endCountText, badgeText } : Props) => {
+export const Badge = ({ containerStyles, icon, endCountNum, endCountText, badgeText }: Props) => {
     return(
         <div className={`badge ${containerStyles}`}>
             <div className='text-3xl text-primary'>{icon}</div>

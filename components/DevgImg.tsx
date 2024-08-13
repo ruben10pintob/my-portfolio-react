@@ -2,7 +2,7 @@ import Image, { StaticImageData } from "next/image"
 
 interface Props {
     containerStyles?: String,
-    imgSrc?: StaticImageData,
+    imgSrc: StaticImageData,
 }
 
 export const DevImg = ({ containerStyles, imgSrc }: Props) => {

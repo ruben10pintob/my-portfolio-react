@@ -3,6 +3,7 @@ import Link from "next/link"
 import { Card, CardHeader } from "@/components/ui/card";
 import { Github, Link2Icon } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { Url } from "next/dist/shared/lib/router/router";
 
 
 interface Props {
@@ -10,7 +11,7 @@ interface Props {
         category?: String,
         name?: String,
         description?: String,
-        github?: String 
+        github: Url 
 }
 
 
